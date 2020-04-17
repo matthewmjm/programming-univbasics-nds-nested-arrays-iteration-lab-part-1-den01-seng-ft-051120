@@ -4,7 +4,6 @@ def find_even_values(src)
   #
   # Output all even values in each nested array
   row_index = 0
-    binding.pry
   while row_index < src.count do
     column_index = 0
     while column_index < src[row_index].count do
